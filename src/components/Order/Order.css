@@ -1,0 +1,43 @@
+.order {
+  position: sticky;
+  top: 0;
+  right: 0;
+  width: 410px;
+  height: 100vh;
+  padding: 25px;
+  background: #1f1d2b;
+}
+
+.order__title {
+  display: block;
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 1.5em;
+}
+
+.order__btns {
+  margin-bottom: 1.5em;
+}
+
+.order__btn {
+  font-size: 13px;
+  padding: 6px 10px;
+  margin-right: 10px;
+}
+
+.order__nav {
+  border-bottom: 1px solid #393C49;
+}
+
+.order__nav-item {
+  font-weight: 600;
+  margin-bottom: 1.5em;
+}
+
+.order__nav-item:first-child {
+  flex: 1;
+}
+
+.order__nav-item:not(:last-child) {
+  margin-right: 2.5rem;
+}

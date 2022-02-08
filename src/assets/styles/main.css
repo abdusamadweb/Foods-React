@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap');
+
+body {
+  font-family: 'Barlow', sans-serif;
+  color: #fff;
+  background: #252836;
+  overflow-y: scroll;
+}
+
+.App {
+  display: flex;
+  justify-content: space-between;
+}
+
+.primary-btn {
+  border-radius: 8px;
+  color: #fff;
+  background: #EA7C69;
+  border: 1px solid #EA7C69;
+}
+
+.border-btn {
+  border-radius: 8px;
+  border: 1px solid #393C49;
+  color: #EA7C69;
+  background: #1F1D2B;
+}

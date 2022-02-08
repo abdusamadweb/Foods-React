@@ -1,0 +1,38 @@
+.card {
+  position: relative;
+  width: 195px;
+  height: 225px;
+  text-align: center;
+  padding-top: 7rem;
+  margin-bottom: 3rem;
+  border-radius: 16px;
+  background: #1F1D2B;
+}
+
+.card__img {
+  position: absolute;
+  top: 30px;
+  width: 132px;
+  height: 132px;
+  border-radius: 50%;
+}
+
+.card__titles {
+  max-width: 145px;
+  font-size: 14px;
+  margin: 0 auto;
+}
+
+.card__title {
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.card__price {
+  display: block;
+  margin-bottom: 6px;
+}
+
+.card__available {
+  color: #ABBBC2;
+}
